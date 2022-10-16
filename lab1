@@ -10,3 +10,11 @@ def calculateAge(birthDate):
 	
 
 print(calculateAge(date(1967, 2, 3)), "years")
+
+
+
+def helloWorld():
+	print(‘Hello World’)
+
+
+helloWorld()
