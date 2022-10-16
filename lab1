@@ -1,2 +1,12 @@
 #A function that takes an input from the user and calculate someone’s age
 
+from datetime import date
+
+def calculateAge(birthDate):
+	today = date.today()
+	age = today.year - birthDate.year 
+
+	return age
+	
+
+print(calculateAge(date(1967, 2, 3)), "years")
